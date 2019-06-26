@@ -1,0 +1,1714 @@
+{
+  "type": "record",
+  "name": "S_DOC_QUOTE",
+  "namespace": "value.SOURCEDB.SIEBEL",
+  "fields": [
+    {
+      "name": "ROW_ID",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "ROW_ID",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "CREATED",
+      "type": {
+        "type": "string",
+        "logicalType": "TIMESTAMP",
+        "dbColumnName": "CREATED",
+        "length": 32
+      },
+      "default": ""
+    },
+    {
+      "name": "CREATED_BY",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "CREATED_BY",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "LAST_UPD",
+      "type": {
+        "type": "string",
+        "logicalType": "TIMESTAMP",
+        "dbColumnName": "LAST_UPD",
+        "length": 32
+      },
+      "default": ""
+    },
+    {
+      "name": "LAST_UPD_BY",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "LAST_UPD_BY",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "DCKING_NUM",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "DCKING_NUM",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "MODIFICATION_NUM",
+      "type": {
+        "type": "long",
+        "logicalType": "DECIMAL",
+        "dbColumnName": "MODIFICATION_NUM",
+        "precision": 10,
+        "scale": 0
+      },
+      "default": 0
+    },
+    {
+      "name": "CONFLICT_ID",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "CONFLICT_ID",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "ACTIVE_CFG_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "ACTIVE_CFG_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "BU_ID",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "BU_ID",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "CRDT_CHK_PASSD_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "CRDT_CHK_PASSD_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "NAME",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "NAME",
+        "length": 100
+      },
+      "default": ""
+    },
+    {
+      "name": "OPEN_ORDER_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "OPEN_ORDER_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "QUOTE_NUM",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "QUOTE_NUM",
+        "length": 30
+      },
+      "default": ""
+    },
+    {
+      "name": "REV_NUM",
+      "type": {
+        "type": "string",
+        "logicalType": "DECIMAL",
+        "dbColumnName": "REV_NUM",
+        "precision": 22,
+        "scale": 7
+      },
+      "default": "0"
+    },
+    {
+      "name": "TEMPLATE_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "TEMPLATE_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "TEST_QUOTE_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "TEST_QUOTE_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "CURCY_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CURCY_CD",
+          "length": 20
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ACTIVE_FLG",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "CHARACTER",
+          "dbColumnName": "ACTIVE_FLG",
+          "length": 1
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ACTL_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ACTL_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ACTL_AMT_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "ACTL_AMT_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ACTL_UNITS",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ACTL_UNITS",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "APPROVED_FLG",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "CHARACTER",
+          "dbColumnName": "APPROVED_FLG",
+          "length": 1
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CG_FCST_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "CG_FCST_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "CG_FCST_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "CG_FCST_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CG_FCST_UNITS",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "CG_FCST_UNITS",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "DB_LAST_UPD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "DB_LAST_UPD",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DISCNT_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "DISCNT_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "DISCNT_AMT_RC",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "DISCNT_AMT_RC",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "DISCNT_PERCENT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "DISCNT_PERCENT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "DISCNT_RC_PCT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "DISCNT_RC_PCT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "DUE_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "DUE_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "EAI_SYNC_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "EAI_SYNC_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "EFF_BILL_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "EFF_BILL_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "EFF_END_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "EFF_END_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "EFF_START_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "EFF_START_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "EXCH_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "EXCH_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "HIST_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "HIST_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "HIST_AMT_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "HIST_AMT_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "HIST_UNITS",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "HIST_UNITS",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "OUT_DUE_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "OUT_DUE_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PRICING_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "PRICING_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "QUOTE_EXCH_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "QUOTE_EXCH_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "REV_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "REV_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "SENT_TO_CUST_FLG",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "CHARACTER",
+          "dbColumnName": "SENT_TO_CUST_FLG",
+          "length": 1
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "STATUS_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "STATUS_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "TGT_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "TGT_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "TGT_AMT_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "TGT_AMT_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "TGT_UNITS",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "TGT_UNITS",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "USAGE_DISCNT_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "USAGE_DISCNT_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "VERIFY_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "VERIFY_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "XFER_EFFECTIVE_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "XFER_EFFECTIVE_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ACTIVITY_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ACTIVITY_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ADDR_1_CON_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ADDR_1_CON_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ADDR_1_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ADDR_1_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ADDR_2_CON_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ADDR_2_CON_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ADDR_2_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ADDR_2_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ADDR_3_CON_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ADDR_3_CON_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ADDR_3_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ADDR_3_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ADDR_4_CON_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ADDR_4_CON_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ADDR_4_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ADDR_4_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "AGREE_SD_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "AGREE_SD_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "AMT_CURCY_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "AMT_CURCY_CD",
+          "length": 20
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "APPR_BY_EMP_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "APPR_BY_EMP_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "BILL_PERIOD_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "BILL_PERIOD_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "BL_ACCT_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "BL_ACCT_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "BL_ADDR_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "BL_ADDR_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "BL_CON_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "BL_CON_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "BL_OU_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "BL_OU_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "BL_PER_ADDR_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "BL_PER_ADDR_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CASE_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CASE_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CG_DLVRSPRD_TYP_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CG_DLVRSPRD_TYP_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CG_DLVR_PERIOD_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CG_DLVR_PERIOD_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CG_RETAILPRILST_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CG_RETAILPRILST_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CMPND_PROD_NUM",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CMPND_PROD_NUM",
+          "length": 100
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CON_PER_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CON_PER_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CTLG_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CTLG_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CUSTOMER_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CUSTOMER_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CUST_ACCNT_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CUST_ACCNT_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DB_LAST_UPD_SRC",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "DB_LAST_UPD_SRC",
+          "length": 50
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DESC_TEXT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "DESC_TEXT",
+          "length": 255
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DISCNT_REASON",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "DISCNT_REASON",
+          "length": 250
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DISCNT_REASON_RC",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "DISCNT_REASON_RC",
+          "length": 250
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DISCON_RSN_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "DISCON_RSN_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DISPLAY_TYPE_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "DISPLAY_TYPE_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DLVRY_SPRD_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "DLVRY_SPRD_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ENTLMNT_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ENTLMNT_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "FILE_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "FILE_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "FILE_NAME",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "FILE_NAME",
+          "length": 220
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "HOLD_REASON",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "HOLD_REASON",
+          "length": 250
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "INTEGRATION_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "INTEGRATION_ID",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "LOY_MEMBER_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "LOY_MEMBER_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "OPTY_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "OPTY_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PAR_SD_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PAR_SD_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PAYMENT_TERM_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PAYMENT_TERM_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PAY_OU_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PAY_OU_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PEC_WF_PROC_NAME",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PEC_WF_PROC_NAME",
+          "length": 100
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PERIOD_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PERIOD_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PRDINT_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PRDINT_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PRI_BY_PER_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PRI_BY_PER_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PRI_LST_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PRI_LST_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PRI_WF_PROC_NAME",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PRI_WF_PROC_NAME",
+          "length": 100
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PROJ_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PROJ_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PROMO_DCP_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PROMO_DCP_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PROMO_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PROMO_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PRSP_CONTACT_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PRSP_CONTACT_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PR_PAYMENT_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PR_PAYMENT_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PR_QUOTE_SOLN_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PR_QUOTE_SOLN_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PR_REP_PER_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PR_REP_PER_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "QUOTE_SUB_TYPE_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "QUOTE_SUB_TYPE_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "QUOTE_TYPE",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "QUOTE_TYPE",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "RATE_LST_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "RATE_LST_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "REGION_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "REGION_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "SALES_REP_POSTN_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "SALES_REP_POSTN_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "SEASON_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "SEASON_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "SERV_ACCNT_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "SERV_ACCNT_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "SHIP_ADDR_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "SHIP_ADDR_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "SHIP_CON_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "SHIP_CON_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "SHIP_OU_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "SHIP_OU_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "SHIP_PER_ADDR_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "SHIP_PER_ADDR_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "SRC_INVLOC_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "SRC_INVLOC_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "SRV_REQ_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "SRV_REQ_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "STAT_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "STAT_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "SUBTYPE_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "SUBTYPE_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "TARGET_OU_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "TARGET_OU_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "TARGET_POSTN_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "TARGET_POSTN_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "WAREHOUSE_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "WAREHOUSE_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CMT_ARCHIVE_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CMT_ARCHIVE_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "X_FN_PROJ_REVIEWED_BY",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "X_FN_PROJ_REVIEWED_BY",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "X_FN_PROJ_REVIEWED_DATE",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "X_FN_PROJ_REVIEWED_DATE",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "X_RB_PROJ_UPDATED_BY",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "X_RB_PROJ_UPDATED_BY",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "X_RB_PROJ_UPDATED_DATE",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "X_RB_PROJ_UPDATED_DATE",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "X_BILLING_COMMENTS_TEXT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "X_BILLING_COMMENTS_TEXT",
+          "length": 255
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ROW_OP",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "ROW_OP",
+        "length": 0
+      },
+      "default": ""
+    }
+  ]
+}

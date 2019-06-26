@@ -1,0 +1,1360 @@
+{
+  "type": "record",
+  "name": "S_QUOTE_CMTX",
+  "namespace": "value.SOURCEDB.SIEBEL",
+  "fields": [
+    {
+      "name": "ROW_ID",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "ROW_ID",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "CREATED",
+      "type": {
+        "type": "string",
+        "logicalType": "TIMESTAMP",
+        "dbColumnName": "CREATED",
+        "length": 32
+      },
+      "default": ""
+    },
+    {
+      "name": "CREATED_BY",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "CREATED_BY",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "LAST_UPD",
+      "type": {
+        "type": "string",
+        "logicalType": "TIMESTAMP",
+        "dbColumnName": "LAST_UPD",
+        "length": 32
+      },
+      "default": ""
+    },
+    {
+      "name": "LAST_UPD_BY",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "LAST_UPD_BY",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "MODIFICATION_NUM",
+      "type": {
+        "type": "long",
+        "logicalType": "DECIMAL",
+        "dbColumnName": "MODIFICATION_NUM",
+        "precision": 10,
+        "scale": 0
+      },
+      "default": 0
+    },
+    {
+      "name": "CONFLICT_ID",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "CONFLICT_ID",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "PAR_ROW_ID",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "PAR_ROW_ID",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "CC_EMAIL_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "CC_EMAIL_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "DIRBL_APPL_APP_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "DIRBL_APPL_APP_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "DIRBL_APPL_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "DIRBL_APPL_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "FS_CONFLICT_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "FS_CONFLICT_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "RM_CONFLICT_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "RM_CONFLICT_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "TY_DISPLC_PRFT_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "TY_DISPLC_PRFT_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "TY_EX_CAPACITY_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "TY_EX_CAPACITY_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "TY_FUTR_DT_PRI_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "TY_FUTR_DT_PRI_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "TY_GOVN_PERDM_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "TY_GOVN_PERDM_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "TY_REQ_GOVN_RT_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "TY_REQ_GOVN_RT_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "ACT_AV_REVN_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ACT_AV_REVN_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ACT_BVRG_REVN_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ACT_BVRG_REVN_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ACT_FOOD_BVRG_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ACT_FOOD_BVRG_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ACT_GSTRM_REVN_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ACT_GSTRM_REVN_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ACT_MISC_REVN_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ACT_MISC_REVN_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ACT_PACKAGE_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ACT_PACKAGE_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ACT_RNTL_REVN_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ACT_RNTL_REVN_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ACT_SVCHRG_REV_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ACT_SVCHRG_REV_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "BDGT_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "BDGT_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "CC_EMAIL_SENT_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "CC_EMAIL_SENT_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "COMPLETED_DT_TM",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "COMPLETED_DT_TM",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CONTRACT_DUE_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "CONTRACT_DUE_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DB_LAST_UPD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "DB_LAST_UPD",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ECHANNEL_DT_TM",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "ECHANNEL_DT_TM",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "EST_AV_REVN_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "EST_AV_REVN_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "EST_BVRG_REVN_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "EST_BVRG_REVN_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "EST_FOOD_BVRG_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "EST_FOOD_BVRG_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "EST_GSTRM_REVN_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "EST_GSTRM_REVN_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "EST_MISC_REVN_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "EST_MISC_REVN_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "EST_PACKAGE_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "EST_PACKAGE_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "EST_RNTL_REVN_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "EST_RNTL_REVN_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "EST_SVCHRG_REV_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "EST_SVCHRG_REV_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "NGS_AV_REVN_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "NGS_AV_REVN_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "NGS_FOOD_BVRG_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "NGS_FOOD_BVRG_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "NGS_GSTRM_REVN_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "NGS_GSTRM_REVN_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "NGS_PACKAGE_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "NGS_PACKAGE_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "NGS_RNTL_REVN_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "NGS_RNTL_REVN_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "NGS_STATUS_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "NGS_STATUS_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "NUM_PEAK_FS",
+      "type": [
+        {
+          "type": "long",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "NUM_PEAK_FS",
+          "precision": 10,
+          "scale": 0
+        },
+        "null"
+      ],
+      "default": 0
+    },
+    {
+      "name": "NUM_SQ_FT_REQ",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "NUM_SQ_FT_REQ",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "NUM_SQ_MTR_REQ",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "NUM_SQ_MTR_REQ",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ODS_REPROCESS_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "ODS_REPROCESS_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ORIG_CREATED_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "ORIG_CREATED_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "REQUEST_REL_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "REQUEST_REL_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "REQ_CUTOFF_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "REQ_CUTOFF_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "RESP_DUE_DT_TM",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "RESP_DUE_DT_TM",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "SFA_AV_REVN_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "SFA_AV_REVN_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "SFA_FOOD_BVRG_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "SFA_FOOD_BVRG_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "SFA_GSTRM_REVN_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "SFA_GSTRM_REVN_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "SFA_PACKAGE_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "SFA_PACKAGE_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "SFA_RNTL_REVN_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "SFA_RNTL_REVN_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "TOTAL_NGS_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "TOTAL_NGS_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "TTL_PROJ_RM_NUM",
+      "type": [
+        {
+          "type": "long",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "TTL_PROJ_RM_NUM",
+          "precision": 10,
+          "scale": 0
+        },
+        "null"
+      ],
+      "default": 0
+    },
+    {
+      "name": "TY_GOVN_RATE",
+      "type": [
+        {
+          "type": "long",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "TY_GOVN_RATE",
+          "precision": 10,
+          "scale": 0
+        },
+        "null"
+      ],
+      "default": 0
+    },
+    {
+      "name": "TY_MAX_RMRT_EX_NUM",
+      "type": [
+        {
+          "type": "long",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "TY_MAX_RMRT_EX_NUM",
+          "precision": 10,
+          "scale": 0
+        },
+        "null"
+      ],
+      "default": 0
+    },
+    {
+      "name": "TY_NEGO_CEILING",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "TY_NEGO_CEILING",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "TY_NEGO_FLR_RATE",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "TY_NEGO_FLR_RATE",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "TY_NEGO_WKND_FLRRT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "TY_NEGO_WKND_FLRRT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "TY_REC_RATE",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "TY_REC_RATE",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "TY_TTL_THRESHOLD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "TY_TTL_THRESHOLD",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "TY_WKND_NEGO_CEIL",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "TY_WKND_NEGO_CEIL",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "TY_WKND_REC_RATE",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "TY_WKND_REC_RATE",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "BREAKOUT_RNTL",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "BREAKOUT_RNTL",
+          "length": 255
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CATERING_ATTRITION",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CATERING_ATTRITION",
+          "length": 100
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "COMPLETED_BY",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "COMPLETED_BY",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CONTRACT_CLAUSES",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CONTRACT_CLAUSES",
+          "length": 100
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CONVERT_CURCY_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CONVERT_CURCY_CD",
+          "length": 20
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DAY_OF_WEEK_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "DAY_OF_WEEK_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DB_LAST_UPD_SRC",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "DB_LAST_UPD_SRC",
+          "length": 50
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DECISION_TYPE_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "DECISION_TYPE_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "EVENT_MIN_REVN",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "EVENT_MIN_REVN",
+          "length": 100
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "EXHIBIT_RNTL",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "EXHIBIT_RNTL",
+          "length": 255
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "FOOD_BEVERAGE_DTL",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "FOOD_BEVERAGE_DTL",
+          "length": 255
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "FUNC_ROOM_DTL",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "FUNC_ROOM_DTL",
+          "length": 255
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "HOLDING_SPACE_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "HOLDING_SPACE_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "NGS_BOOKING_NUM",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "NGS_BOOKING_NUM",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "NGS_STATUS_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "NGS_STATUS_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "OPTION_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "OPTION_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PACKAGE_DTL",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PACKAGE_DTL",
+          "length": 255
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PROMOTION_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PROMOTION_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PROPERTY_CON",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PROPERTY_CON",
+          "length": 50
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PR_QCAT_DISC_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PR_QCAT_DISC_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "REQ_FS_AVAIL_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "REQ_FS_AVAIL_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "REQ_RM_AVAIL_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "REQ_RM_AVAIL_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "RESP_COMMENTS",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "RESP_COMMENTS",
+          "length": 255
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "RESP_STATUS_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "RESP_STATUS_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "RESP_SUBMIT_BY",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "RESP_SUBMIT_BY",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "RESP_TIME_ZONE_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "RESP_TIME_ZONE_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ROOM_ATTRITION",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ROOM_ATTRITION",
+          "length": 100
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "SEASONALITY_TXT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "SEASONALITY_TXT",
+          "length": 250
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "SELLING_FEATURES",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "SELLING_FEATURES",
+          "length": 255
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "SENT_TO_EMS_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "SENT_TO_EMS_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "SESSION_RNTL",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "SESSION_RNTL",
+          "length": 255
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "TY_PRI_SEGMENT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "TY_PRI_SEGMENT",
+          "length": 50
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "TY_SPEC_EVT_PRI",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "TY_SPEC_EVT_PRI",
+          "length": 1000
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "X_PROP_ALTR_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "X_PROP_ALTR_DT",
+          "length": 250
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "X_OPERA_BLOCK_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "X_OPERA_BLOCK_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    }
+  ]
+}

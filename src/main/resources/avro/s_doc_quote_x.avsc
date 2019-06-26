@@ -1,0 +1,747 @@
+{
+  "type": "record",
+  "name": "S_DOC_QUOTE_X",
+  "namespace": "value.SOURCEDB.SIEBEL",
+  "fields": [
+    {
+      "name": "ROW_ID",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "ROW_ID",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "CREATED",
+      "type": {
+        "type": "string",
+        "logicalType": "TIMESTAMP",
+        "dbColumnName": "CREATED",
+        "length": 32
+      },
+      "default": ""
+    },
+    {
+      "name": "CREATED_BY",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "CREATED_BY",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "LAST_UPD",
+      "type": {
+        "type": "string",
+        "logicalType": "TIMESTAMP",
+        "dbColumnName": "LAST_UPD",
+        "length": 32
+      },
+      "default": ""
+    },
+    {
+      "name": "LAST_UPD_BY",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "LAST_UPD_BY",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "MODIFICATION_NUM",
+      "type": {
+        "type": "long",
+        "logicalType": "DECIMAL",
+        "dbColumnName": "MODIFICATION_NUM",
+        "precision": 10,
+        "scale": 0
+      },
+      "default": 0
+    },
+    {
+      "name": "CONFLICT_ID",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "CONFLICT_ID",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "PAR_ROW_ID",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "PAR_ROW_ID",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_08",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "CHARACTER",
+          "dbColumnName": "ATTRIB_08",
+          "length": 1
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_09",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "CHARACTER",
+          "dbColumnName": "ATTRIB_09",
+          "length": 1
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_10",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "CHARACTER",
+          "dbColumnName": "ATTRIB_10",
+          "length": 1
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_11",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "CHARACTER",
+          "dbColumnName": "ATTRIB_11",
+          "length": 1
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_12",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "ATTRIB_12",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_13",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "ATTRIB_13",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_14",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ATTRIB_14",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ATTRIB_15",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ATTRIB_15",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ATTRIB_16",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ATTRIB_16",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ATTRIB_17",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ATTRIB_17",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ATTRIB_18",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ATTRIB_18",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ATTRIB_19",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ATTRIB_19",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ATTRIB_20",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ATTRIB_20",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ATTRIB_21",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ATTRIB_21",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ATTRIB_22",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ATTRIB_22",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ATTRIB_23",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ATTRIB_23",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ATTRIB_24",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ATTRIB_24",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ATTRIB_25",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "ATTRIB_25",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "ATTRIB_26",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "ATTRIB_26",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_27",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "ATTRIB_27",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_28",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "ATTRIB_28",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_29",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "ATTRIB_29",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_30",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "ATTRIB_30",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_31",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "ATTRIB_31",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_32",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "ATTRIB_32",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_33",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "ATTRIB_33",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DB_LAST_UPD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "DB_LAST_UPD",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_01",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_01",
+          "length": 100
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_02",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_02",
+          "length": 100
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_03",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_03",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_04",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_04",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_05",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_05",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_06",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_06",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_07",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_07",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_34",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_34",
+          "length": 50
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_35",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_35",
+          "length": 50
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_36",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_36",
+          "length": 50
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_37",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_37",
+          "length": 50
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_38",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_38",
+          "length": 50
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_39",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_39",
+          "length": 50
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_40",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_40",
+          "length": 50
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_41",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_41",
+          "length": 50
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_42",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_42",
+          "length": 50
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_43",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_43",
+          "length": 50
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_44",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_44",
+          "length": 100
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_45",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_45",
+          "length": 100
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_46",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_46",
+          "length": 100
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ATTRIB_47",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ATTRIB_47",
+          "length": 255
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DB_LAST_UPD_SRC",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "DB_LAST_UPD_SRC",
+          "length": 50
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ROW_OP",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "ROW_OP",
+        "length": 0
+      },
+      "default": ""
+    }
+  ]
+}

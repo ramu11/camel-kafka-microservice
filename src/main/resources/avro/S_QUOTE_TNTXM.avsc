@@ -1,0 +1,630 @@
+{
+  "type": "record",
+  "name": "S_QUOTE_TNTXM",
+  "namespace": "value.SOURCEDB.SIEBEL",
+  "fields": [
+    {
+      "name": "ROW_ID",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "ROW_ID",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "CREATED",
+      "type": {
+        "type": "string",
+        "logicalType": "TIMESTAMP",
+        "dbColumnName": "CREATED",
+        "length": 32
+      },
+      "default": ""
+    },
+    {
+      "name": "CREATED_BY",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "CREATED_BY",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "LAST_UPD",
+      "type": {
+        "type": "string",
+        "logicalType": "TIMESTAMP",
+        "dbColumnName": "LAST_UPD",
+        "length": 32
+      },
+      "default": ""
+    },
+    {
+      "name": "LAST_UPD_BY",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "LAST_UPD_BY",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "MODIFICATION_NUM",
+      "type": {
+        "type": "long",
+        "logicalType": "DECIMAL",
+        "dbColumnName": "MODIFICATION_NUM",
+        "precision": 10,
+        "scale": 0
+      },
+      "default": 0
+    },
+    {
+      "name": "CONFLICT_ID",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "CONFLICT_ID",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "PAR_ROW_ID",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "PAR_ROW_ID",
+        "length": 15
+      },
+      "default": ""
+    },
+    {
+      "name": "BILL_APPRVD_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "BILL_APPRVD_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "BILL_RECVD_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "BILL_RECVD_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "CR_REQ_SENT_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "CR_REQ_SENT_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "CR_SUBMITTED_FLG",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "CR_SUBMITTED_FLG",
+        "length": 1
+      },
+      "default": ""
+    },
+    {
+      "name": "NAME",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "NAME",
+        "length": 100
+      },
+      "default": ""
+    },
+    {
+      "name": "TYPE",
+      "type": {
+        "type": "string",
+        "logicalType": "VARCHAR",
+        "dbColumnName": "TYPE",
+        "length": 30
+      },
+      "default": ""
+    },
+    {
+      "name": "FOLIO_STATUS_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "FOLIO_STATUS_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "AMT_EXCH_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "AMT_EXCH_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "COMMISION_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "COMMISION_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "COMMISION_PCT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "COMMISION_PCT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "CR_REQ_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "CR_REQ_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "CR_REQ_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "CR_REQ_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DB_LAST_UPD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "DB_LAST_UPD",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "FOLIO_CANCEL_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "FOLIO_CANCEL_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "INCRMNTL_REV_AMT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "DECIMAL",
+          "dbColumnName": "INCRMNTL_REV_AMT",
+          "precision": 22,
+          "scale": 7
+        },
+        "null"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "PMS_SETUP_DT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "TIMESTAMP",
+          "dbColumnName": "PMS_SETUP_DT",
+          "length": 32
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ACCNT_CHARGE_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ACCNT_CHARGE_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "AMT_CURCY_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "AMT_CURCY_CD",
+          "length": 20
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "AUTH_SIGNERS_TXT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "AUTH_SIGNERS_TXT",
+          "length": 250
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "BILL_MTHD_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "BILL_MTHD_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "COMMENTS",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "COMMENTS",
+          "length": 250
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CON_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CON_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "COVER_CHRG_TXT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "COVER_CHRG_TXT",
+          "length": 250
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CR_REQ_BY_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CR_REQ_BY_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CR_REQ_STATUS_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CR_REQ_STATUS_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "CR_REQ_TYPE_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "CR_REQ_TYPE_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DB_LAST_UPD_SRC",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "DB_LAST_UPD_SRC",
+          "length": 50
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "DESC_TEXT",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "DESC_TEXT",
+          "length": 250
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "FOLIO_NUM",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "FOLIO_NUM",
+          "length": 100
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "HSNG_ORG_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "HSNG_ORG_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "MARKET_CODE",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "MARKET_CODE",
+          "length": 250
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "OU_NUM",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "OU_NUM",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PMS_ACCNT_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PMS_ACCNT_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PMS_BL_ADDR_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PMS_BL_ADDR_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PMS_CONTACT_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PMS_CONTACT_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PMS_PAY_MTHD_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PMS_PAY_MTHD_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PMS_STATUS_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PMS_STATUS_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "PMS_TYPE_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "PMS_TYPE_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "QUOTE_RMBLK_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "QUOTE_RMBLK_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "RESVTN_MTHD_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "RESVTN_MTHD_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "RESVTN_TYPE_CD",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "RESVTN_TYPE_CD",
+          "length": 30
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ROOM_TYPE_ID",
+      "type": [
+        {
+          "type": "string",
+          "logicalType": "VARCHAR",
+          "dbColumnName": "ROOM_TYPE_ID",
+          "length": 15
+        },
+        "null"
+      ],
+      "default": ""
+    },
+    {
+      "name": "ROW_OP",
+      "type": {
+        "type": "string",
+        "logicalType": "CHARACTER",
+        "dbColumnName": "ROW_OP",
+        "length": 0
+      },
+      "default": ""
+    }
+  ]
+}
